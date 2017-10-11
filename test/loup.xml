@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ServerConfig>
+	<Config>
+		<Listen port="80"/>
+		<Upward type="default" host="localhost" port="8888"/>
+	</Config>
+	<Server name="oido3.普通哇oido3.eu">
+		<ServerAlias name="www.普通哇oido3.eu"/>
+		<Upward type="default" host="localhost" port="8888"/>
+		<PathAlias name="/manual" path="/home/martin/manual" />
+		<ServerRoot path="/home/martin/web/www.oido3.eu"/>
+	</Server>
+	<Server name="wikiحثقسهسزال.oido3.eu">
+		<ServerAlias name="de.wiki.oido3.eu"/>
+		<Upward type="default" host="localhost" port="8888"/>
+	</Server>
+	<Server name="blog.oido3.eu">
+		<ServerAlias name="blog.oido3.eu"/>
+		<Upward type="default" host="localhost" port="8888"/>
+	</Server>
+	<Server name="cardac.de">
+      <ServerAlias name="www.cardac.de"/>
+      <Upward type="default" host="localhost" port="8888"/>
+      <ServerRoot path="/home/martin/web/www.cardac.de"/>
+      <PathAlias name="/manual" path="/home/martin/manual" />
+   </Server>
+   <Server name="blog.cardac.de">
+      <ServerAlias name="de.blog.cardac.de"/>
+      <Upward type="default" host="localhost" port="8888"/>
+      <ServerRoot path="/home/martin/web/blog.cardac.de"/>
+      <PathAlias name="/manual" path="/home/martin/manual" />
+   </Server>
+   <Server name="wiki.cardac.de">
+      <ServerAlias name="de.wiki.cardac.de"/>
+      <Upward type="default" host="localhost" port="8888"/>
+      <ServerRoot path="/home/martin/web/wiki.cardac.de"/>
+      <PathAlias name="/manual" path="/home/martin/manual" />
+   </Server>
+
+
+</ServerConfig>
+
+
